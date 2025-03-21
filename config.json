@@ -1,0 +1,50 @@
+{
+    "server_addr": "0.0.0.0:8080",
+    "source_list": ["prod", "dev", "test"],
+    "server_key_list": [],
+    "proxy_url": "http://127.0.0.1:7890",
+    "platform_list": {
+        "openai": {
+            "name": "openai",
+            "url": "https://api.openai.com",
+            "header_key": "Authorization",
+            "header_values": ["Bearer sk-proj-1234567890"]
+        },
+        "claude": {
+            "name": "claude",
+            "url": "https://api.anthropic.com",
+            "header_key": "x-api-key",
+            "header_values": ["sk-ant-api03-1234567890"]
+        },
+        "google": {
+            "name": "google",
+            "url": "https://api.google.com",
+            "header_key": "Authorization",
+            "header_values": ["Bearer sk-proj-1234567890"]
+        },
+        "cohere": {
+            "name": "cohere",
+            "url": "https://api.cohere.com",
+            "header_key": "Authorization",
+            "header_values": ["bearer sk-proj-1234567890"]
+        },
+        "getimg": {
+            "name": "getimg",
+            "url": "https://api.getimg.ai",
+            "header_key": "Authorization",
+            "header_values": ["bearer sk-proj-1234567890"]
+        },
+        "difyupdate": {
+            "name": "difyupdate",
+            "url": "https://updates.dify.ai",
+            "header_key": "",
+            "header_values": []
+        },
+        "difymarketplace": {
+            "name": "difymarketplace",
+            "url": "https://marketplace.dify.ai",
+            "header_key": "",
+            "header_values": []
+        }
+    }
+}
